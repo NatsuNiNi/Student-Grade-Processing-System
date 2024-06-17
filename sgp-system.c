@@ -202,21 +202,6 @@ void display()
     if (head->next == NULL)
         printf("\n list is empty\n");
     else {
-        printf("\n\n學號       姓名        平時考    作業    期中考    期末考    平均分數");
-        printf("\n-------------------------------------------------------------------------\n");
-        current = head->next;
-        while (current != NULL) {
-            printf("%-10s", current->id);
-            printf(" %-10s", current->name);
-            printf("  %-6.1f", current->temp_score);
-            printf("    %-6.1f", current->homework_score);
-            printf("  %-6.1f", current->mid_score);
-            printf("    %-6.1f", current->final_score);
-            average = calaverage(current);
-            printf("    %-6.1f\n", average);
-            current = current->next;
-        }
-
         // Display rankings
         printf("\n\n排名   學號       姓名        平時考    作業    期中考    期末考    平均分數");
         printf("\n-------------------------------------------------------------------------\n");
