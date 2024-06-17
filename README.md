@@ -1,7 +1,7 @@
-# Student-Grade-Processing-System
+# 學生成績處理系統 (Student-Grade-Processing-System)
 Student Grade Processing System, for NCNU Computer Program Course
 
-# 功能列表與實際執行
+# 功能列表 (Function list)
 1. 加入功能 (Insert)
 ![](https://github.com/NatsuNiNi/Student-Grade-Processing-System/assets/34163864/9d9f17f0-256a-4a28-9d81-eee489b4659e)
 2. 刪除功能 (Delete)
